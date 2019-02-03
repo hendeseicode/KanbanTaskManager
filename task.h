@@ -6,6 +6,7 @@ class Task{
         Task();
         int getTaskCount();
         void setTaskCount(int taskCount);
+        ~Task();
     private: 
         int taskCount;
 };
