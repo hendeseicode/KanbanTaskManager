@@ -1,4 +1,4 @@
-run:program compile
+run:program
 
 program:main task
 	g++ ./lib/main.o ./lib/task.o -o ./bin/program
